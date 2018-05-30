@@ -21,3 +21,17 @@ try:
         print(str[read_single_char])
 except(IndentationError):
     print("string index out of range")
+#############################################
+dict = {'name':["anil","kumar"]}
+try:
+    print(dict['anil'])
+except(KeyError):
+    print("Key Doesn't exist in given dictionary")
+###############################################
+dict = {'name':["anil","kumar"]}
+try:
+    dict['name']='pendela'
+    pritn(dict)
+except(NameError):
+    print("name 'pritn' is not defined")
+
